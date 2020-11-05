@@ -1,6 +1,20 @@
 # Diogenes Cordova Plugin Camera Preview
 <p>
-  Esse plugin é uma cópia de https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview, porém nessa versão eu removi a preferência <uses-feature android:name="android.hardware.camera"> para evitar conflitos de plugins que também usam a mesma propriedade. Se essa propriedade estiver duplicada, o build não será concluído
+  Esse plugin é uma cópia de https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview, porém nessa versão eu removi a preferência 
+
+  ```
+  <uses-feature android:name="android.hardware.camera"> 
+
+  ```
+
+  para evitar conflitos de plugins que também usam a mesma propriedade. Se essa propriedade estiver duplicada, o build não será concluído
+</p>
+<p>
+  Para adiciona-lo ao seu projeto:
+    ```
+  <plugin name="cordova-plugin-camera-preview" spec="https://github.com/diogenesjup/diogenes-camera-preview/diogenes-camera-preview/.git"/>
+
+  ```
 </p>
 <a href="https://badge.fury.io/js/cordova-plugin-camera-preview" target="_blank"><img height="21" style='border:0px;height:21px;' border='0' src="https://badge.fury.io/js/cordova-plugin-camera-preview.svg" alt="NPM Version"></a>
 <a href='https://www.npmjs.org/package/cordova-plugin-camera-preview' target='_blank'><img height='21' style='border:0px;height:21px;' src='https://img.shields.io/npm/dt/cordova-plugin-camera-preview.svg?label=NPM+Downloads' border='0' alt='NPM Downloads' /></a>
