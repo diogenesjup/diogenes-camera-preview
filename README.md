@@ -11,8 +11,10 @@
 </p>
 <p>
   Para adiciona-lo ao seu projeto:
-    ```
-  <plugin name="cordova-plugin-camera-preview" spec="https://github.com/diogenesjup/diogenes-camera-preview/diogenes-camera-preview/.git"/>
+  
+  ```
+  
+  <plugin name="cordova-plugin-camera-preview" spec="https://github.com/diogenesjup/diogenes-camera-preview/diogenes-camera-preview.git"/>
 
   ```
 </p>
